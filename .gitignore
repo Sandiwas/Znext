@@ -1,10 +1,11 @@
+# Maven build folder
+/target/
+
 # Compiled files
 /bin/
 
-# Eclipse settings (optional but recommended)
+# Eclipse settings
 .settings/
-
-# Classpath & project config (optional)
 .classpath
 .project
 
