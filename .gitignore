@@ -1,0 +1,13 @@
+# Compiled files
+/bin/
+
+# Eclipse settings (optional but recommended)
+.settings/
+
+# Classpath & project config (optional)
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
