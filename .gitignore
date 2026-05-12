@@ -15,7 +15,7 @@ screenshots/*
 # Keep folder structure by tracking placeholder files
 !logs/.gitkeep
 !reports/.gitkeep
-!screenshots/*
+!screenshots/.gitkeep
 
 # TestNG output
 test-output/
