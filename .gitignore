@@ -26,3 +26,13 @@ target/
 # Keep key project files
 !pom.xml
 !testng.xml
+# TestNG reports
+test-output/
+
+# Screenshots
+screenshots/
+
+# Optional specific file types
+*.png
+*.html
+*.xml
