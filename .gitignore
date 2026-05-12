@@ -1,5 +1,7 @@
 # Maven build folder
 /target/
+/test-output/
+
 
 # Compiled files
 /bin/
