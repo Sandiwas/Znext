@@ -10,27 +10,19 @@
 # Logs and Reports – track folders, ignore all files inside
 logs/*
 reports/*
+screenshots/*
 
 # Keep folder structure by tracking placeholder files
 !logs/.gitkeep
 !reports/.gitkeep
+!screenshots/*
 
 # TestNG output
 test-output/
-screenshots/
-logs/
-target/
-
-
 
 # Keep key project files
 !pom.xml
 !testng.xml
-# TestNG reports
-test-output/
-
-# Screenshots
-screenshots/
 
 # Optional specific file types
 *.png
