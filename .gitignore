@@ -17,6 +17,11 @@ reports/*
 
 # TestNG output
 test-output/
+screenshots/
+logs/
+target/
+
+
 
 # Keep key project files
 !pom.xml
