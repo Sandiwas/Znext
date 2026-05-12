@@ -1,6 +1,10 @@
 # Maven build folder
 /target/
-/test-output
+# TestNG Reports
+test-output/
+
+# Optional: Ignore HTML/XML report files anywhere
+*.html
 
 
 # Compiled files
