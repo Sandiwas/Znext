@@ -1,20 +1,23 @@
-# Maven build folder
+# Maven build output
 /target/
-# TestNG Reports
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.project
+.classpath
+.settings/
+
+# Logs and Reports – track folders, ignore all files inside
+logs/*
+reports/*
+
+# Keep folder structure by tracking placeholder files
+!logs/.gitkeep
+!reports/.gitkeep
+
+# TestNG output
 test-output/
 
-# Optional: Ignore HTML/XML report files anywhere
-*.html
-
-
-# Compiled files
-/bin/
-
-# Eclipse settings
-.settings/
-.classpath
-.project
-
-# OS files
-.DS_Store
-Thumbs.db
+# Keep key project files
+!pom.xml
+!testng.xml
