@@ -22,7 +22,7 @@ public class B4ReadDataFromAllRow {
 			XSSFRow row = sheet.getRow(i);
 			for (int j = 0; j < cells; j++) {
 				String data = row.getCell(j).toString();
-				System.out.print(data+" ");
+				System.out.print(data + " ");
 			}
 			System.out.println();
 		}
