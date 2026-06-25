@@ -21,6 +21,7 @@ public class E1ReadDataFromExcel {
 		System.out.println(data00);
 		System.out.println(data01);
 		System.out.println(data02);
+
 		System.out.println(data03);
 
 		wb.close();
